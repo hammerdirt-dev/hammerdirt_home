@@ -41,7 +41,7 @@ const ThisAppBAr = () => {
               aria-label="link to repo"
               aria-controls="menu-appbar"
               aria-haspopup="false"
-              href="https://github.com/hammerdirt-analyst"
+              href="https://github.com/hammerdirt-dev/hammerdirt_home"
 
               color="inherit"
             >

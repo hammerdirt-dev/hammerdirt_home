@@ -37,9 +37,9 @@ const ModelTwo = {
       " average survey result.",
   question: "How many of x will most likely be found?",
   repo:"https://github.com/hammerdirt/pgamma",
-  home: "https://hammerdirt-analyst.github.io/finding-one-object/titlepage.html",
-  reference: "https://en.wikipedia.org/wiki/Negative_binomial_distribution",
-  computing: "https://www.pymc.io/projects/docs/en/stable/api/distributions/generated/pymc.Poisson.html",
+  home: "https://github.com/hammerdirt/pgamma",
+  reference: "https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-3/A-comparison-of-Bayesian-and-likelihood-based-methods-for-fitting/10.1214/06-BA117.full",
+  computing: "https://docs.pymc.io/en/v3/pymc-examples/examples/case_studies/multilevel_modeling.html",
   image: poisson_gamma
 }
 
