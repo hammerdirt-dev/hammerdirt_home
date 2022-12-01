@@ -21,7 +21,8 @@ import {BulletedListItem, NumberedListItem} from "./lists";
 import {ThemeProvider} from "@mui/material/styles";
 import {ListItem} from "@mui/material";
 import List from '@mui/material/List';
-import {P} from './thisTheme'
+import {P} from './thisTheme';
+import {PredictionGrid} from "./sortableTable";
 import {
     briefHistoryOfMarineLitter,
     ospar2010Guide,
@@ -258,9 +259,15 @@ export function FeatureTab() {
                                     with the highest probability of finding a feminine hygiene product on the lake.
                                 </P>
                             </Typography>
+                        <P>
+                            Below is the implementation of the model developed after the day with the students. Select a region, city and location. The table of results
+                            is the predicted density of objects for 100m of shoreline.
+                        </P>
 
                     </Box>
+
                 </Paper>
+                 <PredictionGrid />
                 <Introduction />
                 <Box display={"flex"} alignItems={"center"} flexDirection={"column"}>
                     <Box

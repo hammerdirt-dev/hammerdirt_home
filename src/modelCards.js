@@ -37,7 +37,7 @@ const ModelTwo = {
       " average survey result.",
   question: "How many of x will most likely be found?",
   repo:"https://github.com/hammerdirt/pgamma",
-  home: "https://github.com/hammerdirt/pgamma",
+  home: "https://hammerdirt.github.io/pgamma/",
   reference: "https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-3/A-comparison-of-Bayesian-and-likelihood-based-methods-for-fitting/10.1214/06-BA117.full",
   computing: "https://docs.pymc.io/en/v3/pymc-examples/examples/case_studies/multilevel_modeling.html",
   image: poisson_gamma
