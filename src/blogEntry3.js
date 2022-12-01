@@ -39,7 +39,7 @@ const titleFontStyle = ""
 const tagLineBoxProps = {
      width:"100%",
      mb:2
-}
+};
 
 const listProps = {
 
@@ -51,7 +51,7 @@ const listProps = {
     borderStyle:"dashed",
     borderWidth:"thin",
     borderColor: "gray"
-}
+};
 
 // This is a code block for the syntax highlighter
 const acodeblock = `
@@ -70,10 +70,10 @@ const NumberedListItem = createTheme({
                 margin:0,
                 paddingLeft: 16,
                 fontFamily: "Montserrat"
-        },
-      },
-    },
-  },
+        };
+      };
+    };
+  };
 });
 
 export default function SampleList() {
